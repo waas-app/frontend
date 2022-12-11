@@ -1,6 +1,6 @@
 import { Timestamp } from 'google-protobuf/google/protobuf/timestamp_pb';
-import { Devices } from './sdk/devices_pb';
-import { Server } from './sdk/server_pb';
+import { Devices } from '../sdk/devices_pb';
+import { Server } from '../sdk/server_pb';
 
 const backend = window.location.origin + '/api';
 

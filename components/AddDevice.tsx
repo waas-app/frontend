@@ -17,7 +17,7 @@ import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 import React from 'react';
 import { box_keyPair } from 'tweetnacl-ts';
-import { grpc } from '../Api';
+import { grpc } from '../src/Api';
 import { AppState } from '../AppState';
 import { GetConnected } from './GetConnected';
 import { Info } from './Info';

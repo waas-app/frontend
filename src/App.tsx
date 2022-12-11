@@ -1,13 +1,13 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Box from '@material-ui/core/Box';
-import Navigation from './components/Navigation';
+import Navigation from '../components/Navigation';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { observer } from 'mobx-react';
 import { grpc } from './Api';
 import { AppState } from './AppState';
 import { YourDevices } from '../pages/YourDevices';
-import { AllDevices } from './pages/admin/AllDevices';
+import { AllDevices } from '../pages/admin/AllDevices';
 
 @observer
 export class App extends React.Component {

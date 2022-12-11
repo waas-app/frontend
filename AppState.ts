@@ -1,5 +1,5 @@
 import { observable } from 'mobx';
-import { InfoRes } from '../sdk/server_pb';
+import { InfoRes } from './sdk/server_pb';
 
 class GlobalAppState {
   @observable
