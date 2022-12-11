@@ -31,15 +31,13 @@ import { useState,useEffect } from 'react';
        };
 
       return (
-        <header className="border-slate-700 border bg-violet-200 h-15 shadow-sm dark:bg-slate-700 border-black">
+        <header className="border-slate-700 fixed inset-x-0 top-0 border bg-red-200 h-15 shadow-sm dark:bg-slate-700 border-black">
           <div className=" container px-4 sm:px-6 py-4 flex justify-between items-center">
             {/* Logo */}
             <Logo />
             <div className='hidden w-full lg:inline-flex lg:flex-grow lg:w-auto'>
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start'>
-                <button className="bg-violet-500 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full dark:bg-slate-200 text-black">
-                    Login
-                </button>
+               
                 {renderThemeChanger()}
           </div>
             

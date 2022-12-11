@@ -30,13 +30,13 @@ export default function Layout({ children }) {
             <div className='min-h-screen flex flex-col justify-between overflow-hidden'>
 
               <div className="flex min-h-screen flex-col md:flex-row flex-1 overflow-hidden">
-                <aside className='min-h-screen bg-violet-100 w-full md:w-60 dark:bg-slate-600 overflow-hidden'>
+                <aside className='min-h-screen bg-red-100 w-full md:w-60 dark:bg-slate-600 overflow-hidden'>
                   <nav>
                     <ul>
                       {menuItems.map(({ href, title }) => (
                         <li className='m-2' key={title}>
-                          <Link href={href} className={`flex p-2 bg-violet-200 rounded hover:bg-violet-400 cursor-pointer dark:bg-violet-700 ${
-                                router.asPath === href && 'bg-violet-600 text-white dark:bg-slate-200'
+                          <Link href={href} className={`flex p-2 bg-red-200 rounded hover:bg-red-400 cursor-pointer dark:bg-red-700 ${
+                                router.asPath === href && 'bg-red-600 text-white dark:bg-slate-200'
                               }`}>
 
                               {title}
